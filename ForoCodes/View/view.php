@@ -16,8 +16,8 @@ echo <<<EOT
         <div class="col-md-10">
             <div class="d-flex flex-row justify-content-between align-items-center card cookie p-3">
                 <div class="d-flex flex-row align-items-center"><img src="https://i.imgur.com/Tl8ZBUe.png" width="40">
-                    <div class="ml-2 mr-2"><span>Usamos cookies para el funcionamiento de la web.<br> Estas cookies
-                     son estrictamente funcionales y no vendemos datos a terceros.<br></span><a class="learn-more" href="https://www.iglesia.net/biblia/libros/apocalipsis.html">Leer la biblia<i class="fa fa-angle-right ml-2"></i></a></div>
+                    <div class="ml-2 mr-2"><span>Si triste es perdir, mas triste es robar.<br>Usamos cookies para el funcionamiento de la web.<br> Estas cookies
+                     son estrictamente funcionales y novendemos datos a terceros.<br></span><a class="learn-more" href="https://www.iglesia.net/biblia/libros/apocalipsis.html">Leer la biblia<i class="fa fa-angle-right ml-2"></i></a></div>
                 </div>
                 <div><a href="?cookies-policy=1" class="btn btn-dark" type="button">Aceptar</a></div>
             </div>

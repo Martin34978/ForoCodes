@@ -25,7 +25,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
@@ -41,10 +41,16 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-" aria-current="page" href="index.php">Iniciar Sesión</a>
+        </li>
       </ul>
       <div class="d-flex">
+        <div class="nav-item">
+          <a class="nav-" aria-current="page" href="index.php">Iniciar Sesión</a>
+</div>
         <p class="navbar-brand">¿No tienes cuenta?</p>
-        <a class="nav-link" href="./Controllers/signup.php">Regístrate</a>
+        <a class="nav-link" href="./signup.php">Regístrate</a>
       </div>
       </form>
   </div>

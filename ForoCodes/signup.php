@@ -1,6 +1,6 @@
 <?php
-require_once('.\controller.php');
-require_once('..\View\header.php');
+require_once('./Controllers/controller.php');
+require_once('./View/header.php');
  
 echo '<h3>Registro</h3>';
  
@@ -92,5 +92,5 @@ else
     }
 }
  
-include '../View/footer.php';
+include './View/footer.php';
 ?>
