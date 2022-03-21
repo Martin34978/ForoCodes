@@ -1,9 +1,11 @@
 
 <?php
+
 /*              Alerta Cookies
 El botón envia por GET cookies-policy y por tanto
 entra en el if que crea la cookie y evitando entrar
 en el if que muestra el cartel                    */
+
 function cookiesPolicy(){
 if(isset($_REQUEST['cookies-policy'])) {
     $time = time() + (60 * 60 * 24 * 7);

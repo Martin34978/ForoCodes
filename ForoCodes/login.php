@@ -1,8 +1,6 @@
 <?php
 require_once('./Controllers/controller.php');
 require_once('./View/header.php');
- 
-echo '<h3>Registro</h3>';
 
 if($_SERVER['REQUEST_METHOD'] != 'POST'){
     /*Si el formulario no ha sido enviado, muestralo
@@ -10,17 +8,10 @@ if($_SERVER['REQUEST_METHOD'] != 'POST'){
     echo '<form method="post" action="">
         Username: <input type="text" name="user_name" />
         Password: <input type="password" name="user_pass">
-        Password again: <input type="password" name="user_pass_check">
-        E-mail: <input type="email" name="user_email">
-        <input type="submit" value="Registrarse" />
+        <input type="submit" value="Ingresar" />
      </form>';
 }
 else{
-    /* Si el formulario ha sido enviado, lo procesamos en 3 pasos
-        1.  Comprueba la información
-        2.  Deja al usuario corregir la información(si es necesario)
-        3.  guarda la información
-    */
     $errors = array(); /* array donde guardaremos los errores */
      
     if(isset($_POST['user_name'])){
@@ -37,17 +28,17 @@ else{
     else{
         $errors[] = 'El nombre de usuario no puede estar vacío.';
     }
-     
-     
+
     if(isset($_POST['user_pass'])){   //Comprobamos que las dos pass son iguales
-        if($_POST['user_pass'] != $_POST['user_pass_check']){
-            $errors[] = 'Las dos contraseñas no coinciden.';
+        if($_POST['user_pass']){
+            //Definir mas validaciones
+        }else{
+            $errors[] = 'La contraseña no puede estar vacía.';
         }
     }
     else{
-        $errors[] = 'El contraseña no puede estar vacía.';
+      
     }
-     
     if(!empty($errors)) /*Comprueba si el array está vacio, si hubiera errores deberian estar ahí*/{
         echo 'Uh-oh.. Un par de campos no están correctamente rellenos..';
         echo '<ul>';
@@ -55,28 +46,20 @@ else{
             echo '<li>' . $value . '</li>';
         }
         echo '</ul>';
-    }
-
-    else{
-
-        /*el formulario no contiene errores
-        asi que procedemos al tercer paso
-        y guardamos la información*/
+    }else{
         $username = $_POST['user_name'];
-        $userPasswrd = md5($_POST['user_pass']);
-        $userMail = $_POST['user_email'];
-        $date = date('Y-m-d H:i:s');
-        $userLevel = 0;
-        $data = [
-            'username' => $username,
-            'userPasswrd' => $userPasswrd,
-            'userMail' => $userMail,
-            'userDate' => $date,
-            'userLevel' => $userLevel,
-        ];
-        insertUsr($data);
+        $passwrd = $_POST['user_pass'];
+        //$userPasswrd = md5($passwrd);
+        $check = checkUsr($username, $passwrd);
+        if($check){
+            $_SESSION['login'] = 'true';
+            // mirar de añadir la id
+            $_SESSION['username'] = "$username";
+            header('Location: index.php');
+        }else{
+            echo "not ok";
+        }
     }
 }
- 
 include './View/footer.php';
 ?>

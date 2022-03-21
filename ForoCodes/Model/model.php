@@ -26,7 +26,38 @@ class Model{
         $conn->closeCursor();
         $conn = null;
         $search = null;  
-    }       
+    }
+    
+    public function insertSQL($conn, $sql, $data){
+        try {
+            $stm = $conn->prepare($sql);
+            $stm->execute($data);
+            //****Comprobar esta salida ***
+            echo "Nuevo Usuario agregado con éxito.";
+        } catch (PDOException $e) {
+            die("No se pudo conectar :" . $e->getMessage());
+        }
+    
+    //$conn->closeCursor();
+    $conn = null;
+    $stm = null;  
+
+    }
+
+    /*Tengo que mirar de refactorizar esta función con querySQL */
+    public function queryUsr($conn, $sql){
+        try {
+            $search = $conn->query($sql);
+            $output = $search->fetchAll(PDO::FETCH_ASSOC);       
+        } catch (PDOException $e) {
+            die("No se pudo conectar:" . $e->getMessage());
+        }  
+        
+        return $output;
+        $conn->closeCursor();
+        $conn = null;
+        $search = null; 
+    }
 }
 
 

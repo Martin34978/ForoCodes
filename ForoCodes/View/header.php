@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +33,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
@@ -39,20 +42,32 @@
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          </ul> -->
         </li>
         <li class="nav-item">
-          <a class="nav-" aria-current="page" href="index.php">Iniciar Sesión</a>
+          <?php
+          if($_SESSION['login'] == "true"){
+            echo '<a class="nav-" aria-current="page" href="logout.php">Cerrar Sesion</a>';
+          }else{
+            echo '<a class="nav-" aria-current="page" href="login.php">Iniciar Sesión</a>';
+          }
+          ?>
         </li>
       </ul>
-      <div class="d-flex">
-        <div class="nav-item">
-          <a class="nav-" aria-current="page" href="index.php">Iniciar Sesión</a>
-</div>
-        <p class="navbar-brand">¿No tienes cuenta?</p>
-        <a class="nav-link" href="./signup.php">Regístrate</a>
-      </div>
+      <?php
+  if($_SESSION['login'] == "true"){
+    echo '<div class="d-flex">
+            <p class="navbar-brand">Bienvenido!</p>
+            </div>';
+  }else{
+    echo '<div class="d-flex">
+            <p class="navbar-brand">¿No tienes cuenta?<a class="nav-link" href="./signup.php">Regístrate</a></p>
+          </div>';
+  }
+?>
+
       </form>
   </div>
 </nav>
 </div>
+
