@@ -44,15 +44,16 @@ session_start();
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul> -->
         </li>
-        <li class="nav-item">
           <?php
           if($_SESSION['login'] == "true"){
-            echo '<a class="nav-" aria-current="page" href="logout.php">Cerrar Sesion</a>';
+            echo '
+            <li class="nav-item">Hola '.$_SESSION['username'].' ¿No eres tú?</li>
+                  <li><a "class="nav-item" aria-current="page" href="logout.php">Cerrar Sesion</a></li>
+                  ';
           }else{
-            echo '<a class="nav-" aria-current="page" href="login.php">Iniciar Sesión</a>';
+            echo '<a "class="nav-item" aria-current="page" href="login.php">Iniciar Sesión</a>';
           }
           ?>
-        </li>
       </ul>
       <?php
   if($_SESSION['login'] == "true"){
@@ -61,7 +62,8 @@ session_start();
             </div>';
   }else{
     echo '<div class="d-flex">
-            <p class="navbar-brand">¿No tienes cuenta?<a class="nav-link" href="./signup.php">Regístrate</a></p>
+            <p class="navbar-brand">¿No tienes cuenta?</p>
+            <a class="nav-link" href="./signup.php">Regístrate</a>
           </div>';
   }
 ?>

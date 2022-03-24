@@ -63,7 +63,7 @@ else{
         asi que procedemos al tercer paso
         y guardamos la información*/
         $username = $_POST['user_name'];
-        $userPasswrd = md5($_POST['user_pass']);
+        $userPasswrd = $_POST['user_pass'];
         $userMail = $_POST['user_email'];
         $date = date('Y-m-d H:i:s');
         $userLevel = 0;
