@@ -1,6 +1,11 @@
 <?php
 class Model{
-
+    /*
+    Función principal para conectarse a la BDD. Carga los parámetros de la
+    conexión de un archivo situado fuera de los directorios del servidor web
+    Devuelve un objeto PDO que se usará en las otras funciones para establecer
+    la conexión
+     */
     public function connectionDB(){
         $config = parse_ini_file('C://config.ini');
         $host = $config['host'] ;
@@ -11,23 +16,13 @@ class Model{
  
         return $conn;
     }
-
-    /*El parámetro $conn debe ser el PDO que devuelve connectionDB */
-    public function querySQL($condition, $table, $conn){
-        $sql = "SELECT $condition FROM $table";
-        try {
-            $search = $conn->query($sql);
-            $output = $search->fetchAll(PDO::FETCH_ASSOC);       
-        } catch (PDOException $e) {
-            die("No se pudo conectar con $dbname :" . $e->getMessage());
-        }  
-        
-        return $output;
-        $conn->closeCursor();
-        $conn = null;
-        $search = null;  
-    }
-    
+    /*
+    Se usa en controller.php en inserTopic(), insertReply() y insertUsr
+    Guarda los datos en la BDD recibiendo por parametros una $conn que
+    viene de connectionDB, en $sql la sentencia a ejecutar y $ data
+    un ARRAY ASOCIATIVO cuya clave valor son las columnas y sus registros
+    de la tabla
+     */
     public function insertSQL($conn, $sql, $data){
         try {
             $stm = $conn->prepare($sql);
@@ -36,15 +31,16 @@ class Model{
             die("No se pudo conectar :" . $e->getMessage());
         }
     
-    //$conn->closeCursor();
     $conn = null;
     $stm = null;  
 
     }
 
-    /*Tengo que mirar de refactorizar esta función con querySQL
-    Ademas la estoy usando para pedir topicID a topic */
-    public function queryUsr($conn, $sql){
+    /*
+    Hace una petición a la base de datos de la sentencia sql que recibe
+    por parámetro
+     */
+    public function querySQL($conn, $sql){
         try {
             $search = $conn->query($sql);
             $output = $search->fetchAll(PDO::FETCH_ASSOC);       
@@ -58,6 +54,9 @@ class Model{
         $search = null; 
     }
 
+    /*
+    Devuelve la id de un usuario buscándolo por su username 
+    */
     function queryUsrID($conn, $username){
         $sql = "SELECT userID FROM usr WHERE username='$username'";
         try {
@@ -90,6 +89,11 @@ class Model{
     
     }
 
+    /*
+    Devuelve el nombe de una Categoría buscándola por su ID
+    Se usa para poner el título a la tabla cuando estamos viendo
+    los temas que contiene
+     */
     public function queryCatName($conn, $catID){
         $catID = $_GET['catID'];
         $sql = "SELECT catname
@@ -108,7 +112,10 @@ class Model{
         $search = null;
     
     }
-
+    /*
+     Busca y devuelve los temas que pertenezcan a la categoría que tiene
+     ese id (se recibe por GET)
+     */
     public function queryTopicsCatID($conn){
         $catID = $_GET['catID'];
         $sql = "SELECT topicID, topicSubject, topicDate, topicName, userID
@@ -127,7 +134,11 @@ class Model{
         $search = null;
     
     }
-
+    /*
+    Busca los topics que tengan esa ID. El mensaje de los topics
+    (topicSubject) se refiere al mensaje que publicó el que creó el
+    tema. Para las respuestas se usan los que están en la tabla reply
+    */
     public function queryTopic($conn){
         $topicID = $_GET['topicID'];
         $sql = "SELECT topicID, topicSubject, topicDate, topicName, userID
@@ -146,7 +157,10 @@ class Model{
         $search = null;
     
     }
-
+    /*
+    Se usa para obtener las respuestas de determinado tema
+    Para el post original ||MIRAR ARRIBA||
+     */
     public function queryReplies($conn){
         $topicID = $_GET['topicID'];
         $sql = "SELECT userID, replyContent, replyDate
@@ -165,7 +179,10 @@ class Model{
         $search = null;
     
     }
-
+    /*
+    Recibe la ID de un tema y devulve su nombre. Se usa para poner
+    el nombre del tema encima de todos los replies
+     */
     public function queryTopicName($conn, $topicID){
         $id = $_GET['topicID'];
         $sql = "SELECT topicName
@@ -183,6 +200,21 @@ class Model{
         $conn = null;
         $search = null;
     
+    }
+
+    public function queryUsrName($conn, $userID){
+        $sql = "SELECT userName FROM usr WHERE userID='$userID'";
+        try {
+            $search = $conn->query($sql);
+            $output = $search->fetchAll(PDO::FETCH_ASSOC);       
+        } catch (PDOException $e) {
+            die("No se pudo conectar:" . $e->getMessage());
+        }  
+        
+        return $output;
+        $conn->closeCursor();
+        $conn = null;
+        $search = null; 
     }
 }
 ?> 

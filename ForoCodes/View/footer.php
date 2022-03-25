@@ -1,8 +1,8 @@
  <?php
- require_once('view.php');
- cookiesPolicy();
+  require_once('view.php');
+  cookiesPolicy();
 ?>
-
+</div>
 <!-- Footer -->
 <footer class="text-center text-white mt-auto" style="background-color: #f1f1f1;">
   <!-- Copyright -->
