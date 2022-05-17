@@ -1,6 +1,6 @@
  <?php
   require_once('view.php');
-  cookiesPolicy();
+  //cookiesPolicy();
 ?>
 </div>
 <!-- Footer -->

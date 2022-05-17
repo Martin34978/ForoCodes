@@ -1,4 +1,5 @@
 <?php
+require_once './config/config.php';
 class Model{
     /*
     Función principal para conectarse a la BDD. Carga los parámetros de la
@@ -7,10 +8,10 @@ class Model{
     la conexión
      */
     public function connectionDB(){
-        $config = parse_ini_file('C://config.ini');
-        $host = $config['host'] ;
-        $dbname  = $config['dbname'];
-        $username  = $config['username'];
+        //$config = parse_ini_file('C://config.ini');
+        $host = HOST ;
+        $dbname  = DB;
+        $username  = USER;
         // FALTA PASSWORD 
         $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username);
  
@@ -37,7 +38,7 @@ class Model{
     }
 
     /*
-    Hace una petición a la base de datos de la sentencia sql que recibe
+    Hace una petición a la base de datos de la sentencia sql que recibeSS
     por parámetro
      */
     public function querySQL($conn, $sql){

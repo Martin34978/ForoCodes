@@ -1,0 +1,420 @@
+[17-May-2022 22:45:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:48:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:49:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:50:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:50:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:51:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:51:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:51:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 65
+[17-May-2022 22:51:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:51:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:51:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 65
+[17-May-2022 22:51:47 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:51:47 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 65
+[17-May-2022 22:51:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:52:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:52:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 65
+[17-May-2022 22:52:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:53:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 67
+[17-May-2022 22:53:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:53:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 67
+[17-May-2022 22:53:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:13 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:53:13 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 67
+[17-May-2022 22:53:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:53:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 67
+[17-May-2022 22:53:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[17-May-2022 22:53:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 67
+[17-May-2022 22:53:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:50 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:53:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:53:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:53:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:53:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:53:57 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:53:57 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:53:57 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:54:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:54:48 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:54:48 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:54:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:55:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:55:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:55:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:56:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:56:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:56:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:57:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:57:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:57:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 68
+[17-May-2022 22:57:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:57:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:58:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:58:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:58:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:59:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 22:59:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:59:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 22:59:25 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 22:59:25 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 22:59:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 22:59:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(7): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 23:02:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 23:02:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 23:02:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 23:02:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:02:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:02:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:474
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(474): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 474
+[17-May-2022 23:02:56 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:02:56 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:02:58 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:02:58 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:02:59 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:02:59 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:03:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:03:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:03:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:03:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:03:57 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:03:57 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:05:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:05:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:23 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:23 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:23 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[17-May-2022 23:06:24 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:24 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:48 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:48 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:06:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:06:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:07:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:07:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:07:08 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:07:08 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:07:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:07:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:07:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:07:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:09:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:09:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:09:31 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 52
+[17-May-2022 23:09:31 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[17-May-2022 23:09:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[17-May-2022 23:10:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[17-May-2022 23:10:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[17-May-2022 23:10:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477

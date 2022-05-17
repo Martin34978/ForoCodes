@@ -36,11 +36,14 @@ function login(){
         /*
         Si el formulario no ha sido enviado, muestraló
         */
+        echo '<div >';
+        echo '<h2>Iniciar Sesión:</h2>';
         echo '<form method="post" action="">
             Username: <input type="text" name="user_name" />
             Password: <input type="password" name="user_pass">
             <input type="submit" value="Ingresar" />
          </form>';
+         echo '</div>';
     }
     else{
         $errors = array(); /* array donde guardaremos los errores */
@@ -84,11 +87,11 @@ function login(){
             $check = checkUsr($username, $passwrd);
             if($check){
                 $_SESSION['login'] = 'true';
-                // mirar de añadir la id
+                $_SESSION['userLevel'] = userLevel($username);
                 $_SESSION['username'] = "$username";
                 header('Location: index.php');
             }else{
-                echo "not ok";
+                echo "El nombre de usuario o la contraseña no son correctos";
             }
         }
     }
@@ -116,8 +119,15 @@ function signUp(){
         $errors = array(); /* array donde guardaremos los errores */
          
         if(isset($_POST['user_name'])){
+            $username = $_POST['user_name'];
+            $alreadyExist = usernameExist($username);
+
+            //Comprueba si existe un usuario con el mismo nombre 
+            if($alreadyExist){
+                var_dump($alreadyExist);
+                $errors[] = 'El nombre de usuario ya existe';
+            }
             //Comprueban que sean carácteres alfanuméricos
-                        //añadir comprobacion de usuario existente
             if(!ctype_alnum($_POST['user_name'])){
                 $errors[] = 'El nombre de usuario sólo puede contener letras y números.';
             }
@@ -155,7 +165,8 @@ function signUp(){
             asi que procedemos al tercer paso
             y guardamos la información*/
             $username = $_POST['user_name'];
-            $userPasswrd = $_POST['user_pass'];
+            $passwrd = $_POST['user_pass'];
+            $userPasswrd = MD5($passwrd);
             $userMail = $_POST['user_email'];
             $date = date('Y-m-d H:i:s');
             $userLevel = 0;
@@ -167,6 +178,7 @@ function signUp(){
                 'userLevel' => $userLevel,
             ];
             insertUsr($data);
+            echo "<h5>Registro Correcto</h5>";
         }
     }
 }
@@ -214,8 +226,14 @@ if(!$topics){
                             echo "</td>";
                             echo "<td>";
                             echo '<a class="btn btn-danger" href="index.php">Volver</a>';
-                            echo "</td>";
-                        echo '</tr>';
+                            //Aqui va la funcionalidad para borrar del admin
+                        //     echo "</td>";
+                        //     if($_SESSION['userLevel'] = 1){
+                        //         echo "<td>";
+                        //         echo '<a class="btn btn-danger" href="index.php">Borrar</a>';
+                        //         echo "</td>";
+                        //     }
+                        // echo '</tr>';
                         echo "</tbody>";
         echo "</table>";
         echo "</div>";
@@ -239,10 +257,11 @@ function topic(){
             </div>";
             echo '<div class="container" >';
             //prepare the table, tengo que poner el TITULO arriba con $topicName
-                echo '<table class="table table-dark table-striped">    
+                echo "<table class='table table-dark table-striped'>    
                         <thead>
                             <th>Publicado por:</th>
-                        </thead>';
+                            <th>$topicName</th>
+                        </thead>";
                         echo '<tbody>'; 
                             foreach($topics as $i) {
                                 $x = getUsrName($i['userID']);
@@ -268,7 +287,7 @@ function topic(){
                                     echo $userName.'<br>';
                                     echo $i['replyDate'];
                                 echo '</td>';
-                                echo '<td class= "rightpart">';
+                                echo '<td class= "rightpart w-auto p-3">';
                                     echo $i['replyContent'];
                                 echo '</td>';
                                 echo "</tr>";
@@ -304,7 +323,7 @@ function createReply(){
     }else{
         $errors = array(); /* array donde guardaremos los errores */
     
-         if(!ctype_alnum($_POST['replyContent'])){
+         /*if(!ctype_alnum(str_replace(' ','',$_POST['replyContent']))){
              $errors[] = 'El mensaje sólo puede contener letras y números.';
          }
             //Comprueba que no tenga una longitud superior a 300
@@ -313,7 +332,7 @@ function createReply(){
             }
             if(!isset($_POST['replyContent'])){
                 $errors[] = 'El mensaje no puede estar vacío.';
-            }
+            }*/
     
             if(!empty($errors)) /*Comprueba si el array está vacio, si hubiera errores deberian estar ahí*/{
                 echo 'Uh-oh.. Un par de campos no están correctamente rellenos..';  
@@ -375,7 +394,7 @@ if($_SERVER['REQUEST_METHOD'] != 'POST'){
 }else{
     $errors = array(); /* array donde guardaremos los errores */
 
-     if(!ctype_alnum($_POST['topicSubject'])){
+     if((!ctype_alnum(str_replace(' ','',$_POST['topicSubject'])))){
          $errors[] = 'El mensaje sólo puede contener letras y números.';
      }
     //Comprueba que no tenga una longitud superior a 300
@@ -452,7 +471,11 @@ if(!$categories){
                 echo '<h4><a href="category.php?catID='.$i['catID'] .'"><i class="fa-solid fa-code"></i>'.$i['catname'].'</a></h4>' . $i['catDesc'];
             echo '</td>';
             echo '<td class= "rightpart">';
-                echo '<a href="topic.php?catID='.$i['catID'] .'">Tema</a> 10-10';
+                //Un poco enreversado, pero con end toma los últimos valores
+                //del array ordenado por fecha que dvuelve getLasTopic()
+                $getLastTopic = getLastTopic($i['catID']);
+                $lastTopic = end($getLastTopic);
+                echo '<a href="topic.php?topicID='.$lastTopic['topicID'] .'&catID='.$lastTopic['catID'].'">'.$lastTopic['topicName'].'</a>'.$lastTopic['topicDate'];
             echo '</td>';
             echo "</tr>";
         }
@@ -460,4 +483,14 @@ if(!$categories){
 }
 echo "</div>";
 }
+
+function errorLog(){
+    error_reporting(E_ALL);
+    ini_set('ignore_repeated_errors', TRUE);
+    ini_set('display_errors', FALSE);
+    ini_set('log_errors', TRUE);
+    ini_set('error_log','php-error.log');
+}
+
+
 ?>

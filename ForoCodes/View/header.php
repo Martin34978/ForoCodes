@@ -1,5 +1,7 @@
 <?php
+require_once('./View/view.php');
 session_start();
+errorLog();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -14,6 +16,10 @@ session_start();
     <link rel="stylesheet" href="./View/css/styles.css">
 
     <title>Foro Codes</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">        </script>
+    <script src="./petition.js"></script>
+
 </head>
 <!-- El body se cierra en el footer-->
 <body class="d-flex flex-column min-vh-100">
@@ -30,9 +36,7 @@ session_start();
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+        
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
@@ -47,11 +51,18 @@ session_start();
           <?php
           if($_SESSION['login'] == "true"){
             echo '
-            <li class="nav-item">Hola '.$_SESSION['username'].' ¿No eres tú?</li>
-                  <li><a "class="nav-item" aria-current="page" href="logout.php">Cerrar Sesion</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.php">Buscar</a>
+            </li>
+            <li class="navbar-brand">Hola '.$_SESSION['username'].' ¿No eres tú?</li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="logout.php">Cerrar Sesion</a>
+                  </li>
                   ';
           }else{
-            echo '<a "class="nav-item" aria-current="page" href="login.php">Iniciar Sesión</a>';
+            echo '<li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="login.php">Iniciar Sesión</a>
+                    </li>';
           }
           ?>
       </ul>
@@ -62,8 +73,12 @@ session_start();
             </div>';
   }else{
     echo '<div class="d-flex">
-            <p class="navbar-brand">¿No tienes cuenta?</p>
+            <li class="nav-item">
+              <p class="navbar-brand">¿No tienes cuenta?</p>
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="./signup.php">Regístrate</a>
+            <li/>
           </div>';
   }
 ?>

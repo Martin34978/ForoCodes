@@ -117,9 +117,9 @@ function getUsrID($username){
     Función que se usa al hacer login un usuario. Comprueba si username
     y password corresponden
 */
-function checkUsr($username, $userPasswrd){
+function checkUsr($username, $passwrd){
     $model = new Model();
-    //$passwrd = md5($userPasswrd); //Aplicamos una funcion md5 para comparalo con el registro de la bdd
+    $userPasswrd = MD5($passwrd); //Aplicamos una funcion md5 para comparalo con el registro de la bdd
     $conn = $model->connectionDB();
     $sql = "SELECT * FROM usr WHERE username='$username' AND userPasswrd= '$userPasswrd'";
     $out = $model -> querySQL($conn, $sql);
@@ -131,8 +131,43 @@ function checkUsr($username, $userPasswrd){
 */
 function getUsrName($userID){
     $model = new Model();
-    $conn = $model->connectionDB();
+    $conn = $model-> connectionDB();
     $out = $model -> queryUsrName($conn, $userID);
     return $out;
 }
+
+function usernameExist($username){
+    $sql = "SELECT COUNT(*) FROM usr WHERE username='$username'";
+    $model = new Model();
+    $conn = $model-> connectionDB();
+    $out = $model -> querySQL($conn, $sql);
+    $count = $out[0]["COUNT(*)"];
+    if($count > 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function userLevel($username){
+    $sql = "SELECT userLevel FROM usr WHERE username = '$username'";
+    $model = new Model();
+    $conn = $model-> connectionDB();
+    $out = $model -> querySQL($conn, $sql);
+    return $out;
+}
+
+function getLastTopic($catID){
+    $sql = "SELECT topicName, topicID, topicDate, catID FROM topic WHERE catID = '$catID' ORDER BY topicDate";
+    $model = new Model();
+    $conn = $model-> connectionDB();
+    $out = $model -> querySQL($conn, $sql);
+    if($out){
+    return $out;
+    }else{
+        echo 'No hay mensajes!';
+    }
+}
+
+
 ?> 
