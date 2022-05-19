@@ -6,7 +6,7 @@ define('URL', 'http://localhost/DWES/ForoCodes/');
 
     //Constantes para la BDD
 define('HOST', 'localhost');
-define('DB', 'forocodes');
+define('DB', 'forocodes2');
 define('USER', 'root');
 define('PASSWORD', '');
 define('CHARSET', 'utf8mb4');

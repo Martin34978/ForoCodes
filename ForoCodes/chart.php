@@ -1,5 +1,7 @@
 <?php
 require_once('./View/view.php');
+require_once('chartFunctions.php');
+require_once('Controllers/controller.php');
 session_start();
 errorLog();
 ?>
@@ -18,6 +20,43 @@ errorLog();
     <title>Foro Codes</title>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">        </script>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Mushrooms', 3],
+          ['Onions', 1],
+          ['Olives', 1],
+          ['Zucchini', 1],
+          ['Pepperoni', 2]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Cantidad de Temas en cada Categoría',
+                       'width':800,
+                       'height':600};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
 
 </head>
 <!-- El body se cierra en el footer-->
@@ -35,18 +74,7 @@ errorLog();
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
-        
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul> -->
-        </li>
+
           <?php
           if($_SESSION['login'] == "true"){
             echo '
@@ -86,5 +114,16 @@ errorLog();
       </form>
   </div>
 </nav>
+<!--
 </div>
-<div class="container">
+<div class="container-lg">
+  <div id="chart_div"></div>
+</div>
+-->
+<?php
+$idArray = getCatID();
+$id = $idArray[0]["COUNT('catID')"];
+$name = getAllCatName($id);
+var_dump($name);
+require_once('./View/footer.php');
+?>

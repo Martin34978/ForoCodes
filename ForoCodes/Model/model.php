@@ -96,6 +96,7 @@ class Model{
     los temas que contiene
      */
     public function queryCatName($conn, $catID){
+        
         $catID = $_GET['catID'];
         $sql = "SELECT catname
                 FROM category
@@ -119,7 +120,7 @@ class Model{
      */
     public function queryTopicsCatID($conn){
         $catID = $_GET['catID'];
-        $sql = "SELECT topicID, topicSubject, topicDate, topicName, userID
+        $sql = "SELECT topicID, topicDate, topicName, userID
                 FROM topic
                 WHERE catID = $catID";
         try {
@@ -185,7 +186,9 @@ class Model{
     el nombre del tema encima de todos los replies
      */
     public function queryTopicName($conn, $topicID){
+        if(isset($_GET['topicID'])){
         $id = $_GET['topicID'];
+        }
         $sql = "SELECT topicName
                 FROM topic
                 WHERE topicID = $topicID";
@@ -217,5 +220,27 @@ class Model{
         $conn = null;
         $search = null; 
     }
+
+    public function queryCatName2($conn, $catID){
+        
+        
+        $sql = "SELECT catname
+                FROM category
+                WHERE catID = $catID";
+        try {
+            $search = $conn->query($sql);
+            $output = $search->fetchAll(PDO::FETCH_ASSOC);       
+        } catch (PDOException $e) {
+            die("No se pudo conectar:" . $e->getMessage());
+        }  
+        
+        return $output;
+        $conn->closeCursor();
+        $conn = null;
+        $search = null;
+    
+    }
+    
 }
+
 ?> 

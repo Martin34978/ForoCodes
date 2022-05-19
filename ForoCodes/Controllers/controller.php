@@ -27,8 +27,8 @@ function showCategoryName($idCat){
 function insertTopic($data){
     $model = new Model();
     $conn = $model->connectionDB();
-    $sql = "INSERT INTO topic (topicName, catID, userID, topicSubject, topicDate) 
-            VALUES (:topicName, :catID, :userID, :topicSubject, :topicDate)";
+    $sql = "INSERT INTO topic (topicName, catID, userID, topicDate) 
+            VALUES (:topicName, :catID, :userID, :topicDate)";
     $model -> insertSQL($conn, $sql, $data);
 }
 /*
@@ -169,5 +169,14 @@ function getLastTopic($catID){
     }
 }
 
+function searchUser($name){
+    $sql = "SELECT replyContent,topicID FROM reply WHERE replyContent LIKE '%".$name."%'";
+    $model = new Model();
+    $conn = $model-> connectionDB();
+    $out = $model -> querySQL($conn, $sql);
+
+    return $out;
+
+}
 
 ?> 

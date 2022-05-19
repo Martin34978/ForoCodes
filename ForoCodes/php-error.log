@@ -418,3 +418,1168 @@ Stack trace:
 #1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
 #2 {main}
   thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 00:43:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 00:43:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 00:48:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 01:14:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 01:15:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 01:22:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 01:32:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 09:12:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[18-May-2022 09:12:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[18-May-2022 09:12:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 09:12:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[18-May-2022 09:12:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[18-May-2022 09:12:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[18-May-2022 09:12:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[18-May-2022 09:12:49 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 09:12:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 09:13:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[18-May-2022 09:14:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 08:31:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 08:31:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 08:31:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 08:31:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 08:31:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 08:31:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 08:31:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 08:31:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 09:01:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:01:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:01:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:01:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:01:07 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:01:07 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:01:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:01:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:02:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:02:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:02:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:02:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:02:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:02:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:03:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 09:03:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 09:07:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:477
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(477): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 477
+[19-May-2022 09:28:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:492
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(492): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 492
+[19-May-2022 09:31:51 Europe/Berlin] PHP Warning:  Undefined variable $topicIDArray in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 443
+[19-May-2022 09:38:30 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:40:09 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:40:27 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:40:33 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:41:24 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:41:28 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:41:30 Europe/Berlin] PHP Warning:  Undefined variable $topics in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 260
+[19-May-2022 09:45:00 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:45:00 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:45:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:45:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:45:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:45:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:45:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:45:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:45:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:45:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:47:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:47:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:47:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:47:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:26 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:26 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:36 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:36 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:39 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:39 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:40 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 09:55:42 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 09:55:42 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 11:48:00 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 11:48:00 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 11:48:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 11:48:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 11:48:08 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 11:48:08 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 12:35:04 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:04 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:05 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:06 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:39 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:40 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:35:40 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 16
+[19-May-2022 12:35:40 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:35 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:57 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:57 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:57 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:36:58 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:12 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:16 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:17 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:37:17 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 18
+[19-May-2022 12:40:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:40:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:41:59 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:41:59 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:41:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:18 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:18 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:19 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:19 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:19 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:19 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:20 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:20 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:21 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:21 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:21 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:21 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:26 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:26 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:28 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:28 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:29 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:29 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:41 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:41 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 12:42:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 12:42:45 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:45 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 487
+[19-May-2022 12:42:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:42:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 12:42:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 12:42:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 12:43:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:43:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:44:41 Europe/Berlin] PHP Warning:  Undefined array key 5 in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 128
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:45:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:45:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:45:37 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:45:37 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 125
+[19-May-2022 12:45:58 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:45:58 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:45:58 Europe/Berlin] PHP Warning:  Undefined array key "catname" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 125
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 126
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:28 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\DWES\ForoCodes\chart.php:124
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 124
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\DWES\ForoCodes\chart.php:124
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 124
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:48:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\DWES\ForoCodes\chart.php:125
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 125
+[19-May-2022 12:49:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function igetCatID() in C:\xampp\htdocs\DWES\ForoCodes\chart.php:123
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function igetCatID() in C:\xampp\htdocs\DWES\ForoCodes\chart.php:123
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function igetCatID() in C:\xampp\htdocs\DWES\ForoCodes\chart.php:123
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function igetCatID() in C:\xampp\htdocs\DWES\ForoCodes\chart.php:123
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:49:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:04 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function igetCatID() in C:\xampp\htdocs\DWES\ForoCodes\chart.php:123
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 123
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:10 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:52 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:52 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:52 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:52 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:52 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:49:53 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:03 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:50:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:50:29 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:51:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:51:28 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:51:28 Europe/Berlin] PHP Warning:  Undefined array key 1 in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 127
+[19-May-2022 12:51:44 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:51:44 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:51:55 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:51:55 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:43 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:44 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:44 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:45 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:46 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:52:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:52:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:56:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:56:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:56:50 Europe/Berlin] PHP Warning:  Undefined variable $id in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 14
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined variable $id in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 14
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:56:51 Europe/Berlin] PHP Warning:  Undefined variable $id in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 14
+[19-May-2022 12:57:12 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:57:12 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 12:57:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 12:57:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:50 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:51 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:00:52 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:01:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:01:10 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:01:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:01:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:01:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:01:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:01:53 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:02:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:02:01 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:02:07 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:02:07 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:02:07 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:02:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:02:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:02:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:02:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:02:41 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:03:35 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:03:35 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:03:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('5')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 14
+[19-May-2022 13:04:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:04:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:04:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('5')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:04:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:04:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:04:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('5')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:04:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:04:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:04:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('5')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:04:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:04:06 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:04:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('5')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 15
+[19-May-2022 13:05:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:05:49 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:05:49 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:18 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:19 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:20 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:21 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:22 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:06:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 78
+[19-May-2022 13:06:53 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\chart.php on line 97
+[19-May-2022 13:06:53 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 99
+[19-May-2022 13:10:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:02 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:10:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:03 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:05 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:13 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:13 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:13 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 431
+[19-May-2022 13:10:13 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 433
+[19-May-2022 13:10:15 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:15 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:10:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:16 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:18 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:10:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:19 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:21 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:10:27 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:10:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:10:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:11:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:12:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:12:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:12:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:13:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:13:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:14:39 Europe/Berlin] PHP Warning:  Undefined array key "catID" in C:\xampp\htdocs\DWES\ForoCodes\Model\model.php on line 100
+[19-May-2022 13:18:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 13:19:11 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:11 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:12 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:12 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:12 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:12 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 25
+[19-May-2022 13:19:22 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 29
+[19-May-2022 13:19:22 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 29
+[19-May-2022 13:19:23 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 29
+[19-May-2022 13:19:23 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 29
+[19-May-2022 13:20:49 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:20:50 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:20:50 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:07 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:08 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:08 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:08 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:08 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:09 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:09 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:09 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 30
+[19-May-2022 13:22:54 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:22:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:22:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:22:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:22:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:24:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 13:58:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 51
+[19-May-2022 13:58:41 Europe/Berlin] PHP Warning:  Undefined array key "login" in C:\xampp\htdocs\DWES\ForoCodes\View\header.php on line 70
+[19-May-2022 13:58:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: end(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\View\view.php:493
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\View\view.php(493): end(NULL)
+#1 C:\xampp\htdocs\DWES\ForoCodes\index.php(5): categories()
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\View\view.php on line 493
+[19-May-2022 14:00:34 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php:23
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php(23): array_push(NULL, 'Hardware')
+#1 C:\xampp\htdocs\DWES\ForoCodes\chart.php(127): getCatName('4')
+#2 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 23
+[19-May-2022 14:03:49 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 32
+[19-May-2022 14:03:59 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 32
+[19-May-2022 14:04:14 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 32
+[19-May-2022 14:04:15 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 32
+[19-May-2022 14:04:35 Europe/Berlin] PHP Warning:  Undefined variable $out in C:\xampp\htdocs\DWES\ForoCodes\chartFunctions.php on line 32
+[19-May-2022 14:05:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getCatName() in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 184
+[19-May-2022 14:05:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getCatName() in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:184
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 184
+[19-May-2022 14:07:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186
+[19-May-2022 14:07:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186
+[19-May-2022 14:07:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186
+[19-May-2022 14:07:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186
+[19-May-2022 14:07:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186
+[19-May-2022 14:07:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "model" in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php:186
+Stack trace:
+#0 C:\xampp\htdocs\DWES\ForoCodes\chart.php(126): getAllCatName('4')
+#1 {main}
+  thrown in C:\xampp\htdocs\DWES\ForoCodes\Controllers\controller.php on line 186

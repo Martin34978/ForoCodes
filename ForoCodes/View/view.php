@@ -189,8 +189,8 @@ $catID = $_GET['catID'];            // Los calores de catID y topicID lo vamos p
 $catName = implode($i[0]);          // Para usarlos en caso de necesitarlos al crear topic o ¿reply?
 $topics = showTopics();
 
-echo "<div class='row'>
-         --------------------------------------
+echo "<div class='row' style='margin-top:5%'>
+         
         </div>";
 echo "<div class = 'mx-auto'>
     <table class='table table-dark'>
@@ -201,6 +201,14 @@ echo "<div class = 'mx-auto'>
 </div>";
 if(!$topics){
     echo 'No se pueden mostrar los temas, por favo inténtelo mas tarde.';
+    echo '<tr>';
+    echo "<td>";
+        echo '<a class="btn btn-info" href="createTopic.php?catID='.$catID.'">Crear Tema Nuevo!</a>';
+    echo "</td>";
+    echo "<td>";
+        echo '<a class="btn btn-danger" href="index.php">Volver</a>
+        </td>';
+    
     }else{
         echo '<div class="container" >';
         //prepare the table
@@ -213,7 +221,7 @@ if(!$topics){
                     foreach($topics as $i) {
                         echo "<tr>";
                         echo '<td class="leftpart" >';
-                            echo '<a href="topic.php?topicID='.$i['topicID'] .'&catID='.$catID.'">'.'<i class="fa-solid fa-message"></i>'.$i['topicName'].'</a>';
+                            echo '<a style ="color:#c154c1" href="topic.php?topicID='.$i['topicID'] .'&catID='.$catID.'">'.'<i class="fa-solid fa-message"></i>'.$i['topicName'].'</a>';
                         echo '</td>';
                         echo '<td class= "rightpart">';
                             echo $i['topicDate'];
@@ -246,14 +254,11 @@ function topic(){
     $topicID = $_GET['topicID'];
     $i = showTopicName($topicID);
     $topicName = implode($i[0]);
-    $topics = showTopicOP();
+    //$topics = showTopicOP();
     $replies = showReplies();
 
-    if(!$topics){
-        echo 'No se pueden mostrar los temas, por favo inténtelo mas tarde.';
-        }else{
-            echo "<div class='row'>
-             --------------------------------------
+   
+            echo "<div class='row' style='margin-top:5%'>
             </div>";
             echo '<div class="container" >';
             //prepare the table, tengo que poner el TITULO arriba con $topicName
@@ -263,20 +268,20 @@ function topic(){
                             <th>$topicName</th>
                         </thead>";
                         echo '<tbody>'; 
-                            foreach($topics as $i) {
-                                $x = getUsrName($i['userID']);
-                                $userName = implode($x[0]);
-                                echo "<tr>";
-                                echo '<td class="leftpart" >';
-                                    echo '<i class="fa-solid fa-user"></i>';
-                                    echo $userName.'<br>';
-                                    echo $i['topicDate'];
-                                echo '</td>';
-                                echo '<td class= "rightpart">';
-                                    echo $i['topicSubject'];
-                                echo '</td>';
-                                echo "</tr>";
-                            }
+                            // foreach($topics as $i) {
+                            //     $x = getUsrName($i['userID']);
+                            //     $userName = implode($x[0]);
+                            //     echo "<tr>";
+                            //     echo '<td class="leftpart" >';
+                            //         echo '<i class="fa-solid fa-user"></i>';
+                            //         echo $userName.'<br>';
+                            //         echo $i['topicDate'];
+                            //     echo '</td>';
+                            //     echo '<td class= "rightpart">';
+                            //         echo $i['topicSubject'];
+                            //     echo '</td>';
+                            //     echo "</tr>";
+                            // }
 
                             foreach($replies as $i) {
                                 $x = getUsrName($i['userID']);
@@ -287,29 +292,33 @@ function topic(){
                                     echo $userName.'<br>';
                                     echo $i['replyDate'];
                                 echo '</td>';
-                                echo '<td class= "rightpart w-auto p-3">';
+                                echo '<td class= "rightpart w-auto p-3" colspan="2">';
                                     echo $i['replyContent'];
                                 echo '</td>';
                                 echo "</tr>";
                             }
                             echo '<tr>';
-                                echo "<th>";
+                                echo "<td>";
                                     echo '<a class="btn btn-info" href="createReply.php?topicID='.$topicID.'&catID='.$catID.'">Responder!</a>';
-                                echo "</th>";
-                                echo "<th>";
+                                echo "</td>";
+                                echo "<td>";
                                     echo '<a class="btn btn-danger" href="category.php?catID='.$catID.'">Volver</a>';
-                                echo "</th>";
+                                echo "</td>";
+                                echo "<td>";
+                                    echo '<a target="_blank" class="btn btn-warning" href="pdf.php?topicID='.$topicID.'&catID='.$catID.'">Generar PDF</a>';
+                                echo "</td>";
                             echo '</tr>';
                         echo "</tbody>";
                     echo "</table>";
                 echo "</div>";
         }
-    }
+    
 
 function createReply(){
     if($_SERVER['REQUEST_METHOD'] != 'POST'){
         $catID = $_GET['catID'];
         echo <<<EOT
+            <div style='margin-top:5%'></div>
             <form form method="post" action="">
                 <div class="row">
                     <div class="col">
@@ -375,6 +384,7 @@ function createTopic(){
 if($_SERVER['REQUEST_METHOD'] != 'POST'){
     $catID = $_GET['catID'];
     echo <<<EOT
+        <div style='margin-top:5%'></div>
         <form method="post" action="">
             <div class="row">
                 <div class="col">
@@ -427,16 +437,23 @@ if($_SERVER['REQUEST_METHOD'] != 'POST'){
             'topicName' => $topicName,
             'catID'=> $catID,
             'userID' => $userID,
-            'topicSubject' => $topicSubject,
             'topicDate' => $date,
             ];
+        
 
         insertTopic($data);
-        
-        //Buscamos el id del topic para el botón volver
         $i = getTopicID($topicName);
         $topicIDArray = $i[0];
         $topicID = $topicIDArray['topicID'];
+        $reply = [
+            'topicID' => $topicID,
+            'userID' => $userID,
+            'replyContent' => $topicSubject,
+            'replyDate' => $date
+        ];
+        insertReply($reply);
+        //Buscamos el id del topic para el botón volver
+        
         echo <<< EOT
             <div class="container" >
                 <p>Tema creado con éxito.<a href="topic.php?topicID=$topicID&catID=$catID">Volver</a></p>
@@ -455,8 +472,7 @@ if(!$categories){
     if(count($categories) == 0){
         echo 'No hay categorías creadas';
     }else{
-        echo "<div>
-         --------------------------------------
+        echo "<div style='margin-top:5%'>
         </div>";
         echo '<div class="container" >';
         //prepare the table
@@ -468,14 +484,14 @@ if(!$categories){
         foreach($categories as $i) {
             echo "<tr>";
             echo '<td class="leftpart" >';
-                echo '<h4><a href="category.php?catID='.$i['catID'] .'"><i class="fa-solid fa-code"></i>'.$i['catname'].'</a></h4>' . $i['catDesc'];
+                echo '<h4><a style ="color:#c154c1"href="category.php?catID='.$i['catID'] .'" ><i class="fa-solid fa-code"></i>'.$i['catname'].'</a></h4>' . $i['catDesc'];
             echo '</td>';
             echo '<td class= "rightpart">';
                 //Un poco enreversado, pero con end toma los últimos valores
                 //del array ordenado por fecha que dvuelve getLasTopic()
                 $getLastTopic = getLastTopic($i['catID']);
                 $lastTopic = end($getLastTopic);
-                echo '<a href="topic.php?topicID='.$lastTopic['topicID'] .'&catID='.$lastTopic['catID'].'">'.$lastTopic['topicName'].'</a>'.$lastTopic['topicDate'];
+                echo '<a style ="color:#c154c1" href="topic.php?topicID='.$lastTopic['topicID'] .'&catID='.$lastTopic['catID'].'">'.$lastTopic['topicName'].'</a>'.$lastTopic['topicDate'];
             echo '</td>';
             echo "</tr>";
         }
@@ -491,6 +507,5 @@ function errorLog(){
     ini_set('log_errors', TRUE);
     ini_set('error_log','php-error.log');
 }
-
 
 ?>
